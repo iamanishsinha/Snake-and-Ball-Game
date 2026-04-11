@@ -1,0 +1,132 @@
+/* ===============================
+   CLASSIC SNAKE – FIXED CSS
+   Traditional LCD Style
+   =============================== */
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* PAGE BACKGROUND */
+body {
+    background: #050805;
+    font-family: "Courier New", monospace;
+    color: #9bbc0f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* MAIN WRAPPER */
+.game-wrapper {
+    background: #0b1c0f;
+    border: 4px solid #2f4f2f;
+    padding: 14px;
+    width: 540px;              /* FIXED WIDTH */
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.title {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-size: 11px;
+    opacity: 0.8;
+    margin-top: 2px;
+}
+
+/* SCORE BAR */
+.score-bar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 6px 4px;
+    margin-bottom: 6px;
+    border-top: 2px solid #2f4f2f;
+    border-bottom: 2px solid #2f4f2f;
+}
+
+/* GAME SCREEN */
+.screen {
+    position: relative;
+    background: #0b1c0f;
+    border: 3px solid #3c6e3c;
+    padding: 6px;
+    width: fit-content;
+    margin: 0 auto;            /* CENTER BOARD */
+}
+
+/* CANVAS */
+#gameCanvas {
+    display: block;
+    background-color: #0b1c0f;
+
+    /* SUBTLE GRID */
+    background-image:
+        repeating-linear-gradient(
+            0deg,
+            rgba(155,188,15,0.06),
+            rgba(155,188,15,0.06) 1px,
+            transparent 1px,
+            transparent 16px
+        ),
+        repeating-linear-gradient(
+            90deg,
+            rgba(155,188,15,0.06),
+            rgba(155,188,15,0.06) 1px,
+            transparent 1px,
+            transparent 16px
+        );
+}
+
+/* OVERLAY (START / PAUSE / GAME OVER) */
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(11, 28, 15, 0.92);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    pointer-events: none;
+}
+
+.overlay p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    animation: blink 1.2s steps(1) infinite;
+    white-space: pre-line;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 11px;
+    opacity: 0.75;
+}
+
+/* BLINK ANIMATION (ARCADE STYLE) */
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
+/* RESPONSIVE SAFETY (DESKTOP FIRST) */
+@media (max-width: 600px) {
+    .game-wrapper {
+        transform: scale(0.9);
+    }
+}

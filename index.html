@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Classic Snake</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="game-wrapper">
+
+    <!-- GAME TITLE -->
+    <div class="header">
+        <div class="title">CLASSIC SNAKE</div>
+        <div class="subtitle">TRADITIONAL EDITION</div>
+    </div>
+
+    <!-- SCORE BAR (ONLY ONCE) -->
+    <div class="score-bar">
+        <span>SCORE : <span id="score">0</span></span>
+        <span>HIGH : <span id="highScore">0</span></span>
+    </div>
+
+    <!-- GAME SCREEN -->
+    <div class="screen">
+        <canvas id="gameCanvas" width="480" height="480"></canvas>
+
+        <!-- OVERLAY -->
+        <div class="overlay" id="overlay">
+            <p id="overlayText">PRESS ENTER TO START</p>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        Designed by Anish Sinha
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
