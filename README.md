@@ -1,6 +1,6 @@
 # 🐍 Classic Snake – Traditional Edition
 
-A retro-style **Snake Game** built using **HTML, CSS, and JavaScript**, inspired by classic LCD-style gaming. This project recreates the nostalgic feel of early mobile snake games with a minimal and clean UI.
+A retro-style **Snake Game** built using **HTML, CSS, and JavaScript**, inspired by classic LCD-style games and Nostalgic Keypad Phone Games. This project recreates the nostalgic feel of early mobile snake games with a minimal and clean UI.
 
 ---
 
@@ -57,11 +57,12 @@ classic-snake/
 
 | Key            | Action     |
 | -------------- | ---------- |
+| ⏎ Enter        | Start Game |
 | ⬆️ Up Arrow    | Move Up    |
 | ⬇️ Down Arrow  | Move Down  |
 | ⬅️ Left Arrow  | Move Left  |
 | ➡️ Right Arrow | Move Right |
-| ⏎ Enter        | Start Game |
+
 
 ---
 
@@ -83,15 +84,15 @@ classic-snake/
 
 ---
 
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
+
+---
+
 ## 👨‍💻 Author
 
 **Anish Sinha**
 Designed and developed as a retro-style web game project.
-
----
-
-## ⭐ Support
-
-If you like this project, consider giving it a ⭐ on GitHub!
 
 ---
