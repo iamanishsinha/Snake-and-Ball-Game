@@ -1,5 +1,5 @@
 /* ===============================
-   CLASSIC SNAKE – FIXED CSS
+   CLASSIC SNAKE
    Traditional LCD Style
    =============================== */
 
@@ -103,9 +103,9 @@ body {
 }
 
 .overlay p {
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 1px;
-    animation: blink 1.2s steps(1) infinite;
+    animation: blink 1.1s steps(1) infinite;
     white-space: pre-line;
 }
 
