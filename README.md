@@ -29,10 +29,10 @@ A retro-style **Snake Game** built using **HTML, CSS, and JavaScript**, inspired
 ```
 classic-snake/
 │
+├── README.md      # Project documentation
 ├── index.html     # Main HTML file
-├── style.css      # Styling (LCD theme)
 ├── script.js      # Game logic
-└── README.md      # Project documentation
+└── style.css      # Styling (LCD theme)
 ```
 
 ---
