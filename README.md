@@ -96,3 +96,6 @@ If you like this project, consider giving it a ⭐ on GitHub!
 Designed and developed as a retro-style web game project.
 
 ---
+
+##Support
+I welcome Each and Every Suggestion or Request
