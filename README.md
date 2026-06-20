@@ -93,8 +93,10 @@ If you like this project, consider giving it a ⭐ on GitHub!
 ## 👨‍💻 Author
 
 **Anish Sinha**
-Designed and developed as a retro-style web game project.
-
+Designed and developed as a retro-style web game project. </br>
+Linkdin : https://www.linkedin.com/in/anishsinhaprofile/
+</br>
+Github : https://github.com/anishsinha-dev
 ---
 
 ##Support
