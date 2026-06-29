@@ -4,6 +4,17 @@ A retro-style **Snake Game** built using **HTML, CSS, and JavaScript**, inspired
 
 ---
 
+## 🎮 Features
+
+* 🟢 Classic snake movement gameplay
+* 📟 Retro LCD-style design
+* 📊 Live score tracking
+* 🏆 High score display
+* ⌨️ Keyboard controls (Arrow keys)
+* ⏯️ Start / Pause / Game Over overlay
+* 📱 Responsive scaling for smaller screens
+
+---
 
 ## 🛠️ Tech Stack
 
